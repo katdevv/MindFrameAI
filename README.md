@@ -1,48 +1,42 @@
-# MindFrameAI RAG Engine
+# 🧠 MindFrameAI  
+**Context-Aware Georgian AI Study Workspace**  
+_Built with Python, Tkinter, LangChain, RAG, and Azure APIs_
 
-MindFrameAI is a personalized learning assistant that can read a file (PDF, DOCX, TXT, CSV, JSON), understand it, and generate:
-- A direct answer to a user question
-- Study context
-- Georgian-language flashcards (in JSON)
-- A Georgian multiple-choice quiz (in JSON)
+---
 
-It adapts tone, structure, and difficulty based on a learner profile.
+## 🚀 Overview
 
-This module is designed to be part of a larger AI study workspace with features like focus mode, flashcards, quizzes/tests, TTS, progress tracking, and file upload.
+**MindFrameAI** is the first **context-aware Georgian AI desktop workspace** designed to transform how students learn, focus, and stay motivated.  
+It integrates intelligent agents, retrieval-augmented generation (RAG), and adaptive AI pipelines to create a **personalized, distraction-free learning environment** — all in Georgian.
+
+The system analyzes each learner’s style, pace, and goals, delivering adaptive content — summaries, flashcards, quizzes, and spoken explanations — tailored to individual needs.
 
 ---
 
 ## ✨ Key Features
 
-### 1. Retrieval-Augmented Generation (RAG)
-- Loads a document and splits it into semantic chunks.
-- Builds a FAISS vector store using OpenAI embeddings.
-- Retrieves the most relevant chunks to answer a question.
+### 🧩 Intelligent Learning Engine (RAG + LangChain)
+- Processes PDFs, DOCX, TXT, JSON, and CSV files  
+- Extracts key insights and generates contextual answers using LangChain and OpenAI  
+- Creates **Georgian-language flashcards** and **multiple-choice quizzes** automatically  
+- Uses FAISS for local vector storage and fast document retrieval  
 
-### 2. Adaptive Pedagogy
-- It builds a dynamic system prompt using the learner's self-description:
-  - learning style (visual, hands-on, auditory, step-by-step)
-  - pace preference (fast vs thorough)
-  - level (beginner / intermediate / advanced)
-- The assistant explains content in the learner’s preferred style.
+### 🎓 Personalized Study Experience
+- Builds a **learner profile** based on learning style, pace, and difficulty level  
+- Adapts tone and teaching method to the learner (visual, auditory, or kinesthetic)  
+- Encouraging, structured, and motivating explanations for better comprehension  
 
-### 3. Flashcards Generator (Georgian)
-- Generates ~10 flashcards in pure JSON.
-- The content of the flashcards (Q/A) is in Georgian.
-- Automatically writes output to `flashcards.json`.
+### 🖥️ Unified Desktop Interface
+- Clean, Tkinter-based UI featuring:  
+  - **Focus mode** for distraction-free reading  
+  - **Text-to-speech (TTS)** for auditory learners  
+  - **Flashcards and quiz modules**  
+  - **Progress tracking dashboard**  
+  - **File upload and study session management**
 
-### 4. Quiz Generator (Georgian)
-- Generates ~10 multiple-choice questions with options A/B/C/D, correct answer, and explanation.
-- All question/answer text is in Georgian.
-- Automatically writes output to `quiz.json`.
-
-### 5. Async Pipeline with LangGraph
-- The full workflow is modeled as a state machine:
-  1. Load + chunk + embed file
-  2. Retrieve relevant passages for a given query
-  3. Generate answer
-  4. Generate flashcards
-  5. Generate quiz
-- Each step updates a shared `RAGState` and passes it forward.
+### ⚙️ Multi-Agent and API Integrations
+- Integrates **Azure Cognitive Services**, **OpenAI API**, and custom **Python agents**  
+- Enables real-time content processing, speech synthesis, and semantic search  
+- Designed for **local-first, privacy-conscious use** — no cloud data storage required  
 
 ---
