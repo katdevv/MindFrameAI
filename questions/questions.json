@@ -1,8 +1,104 @@
 {
   "questions": [
-    {"id": 1,
-      "question": "raghaca",
-      "answers": []
+    {
+      "id": 1,
+      "question": "How do you usually start preparing for a new topic?",
+      "answers": [
+        "Reading through the material",
+        "Watching videos/lectures",
+        "Making notes or highlights",
+        "Jumping straight into practice questions"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which study method do you find most effective?",
+      "answers": [
+        "Taking notes",
+        "Making flashcards",
+        "Summarizing or rewriting content",
+        "Group discussions/study with peers"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "How long can you usually stay focused before getting distracted?",
+      "answers": [
+        "Less than 15 minutes",
+        "15–30 minutes",
+        "30–60 minutes",
+        "More than an hour"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "How do you prefer to test your knowledge?",
+      "answers": [
+        "Practice quizzes",
+        "Flashcards",
+        "Explaining concepts to someone else",
+        "Writing summaries"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What distracts you the most while studying?",
+      "answers": [
+        "Phone/social media",
+        "Noise or environment",
+        "Lack of motivation",
+        "Not knowing where to start"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "How do you usually keep track of your study progress?",
+      "answers": [
+        "To-do lists",
+        "Timetables or planners",
+        "Apps or digital tools",
+        "I don’t track progress"
+      ]
+    },
+    {
+      "id": 7,
+      "question": "When do you usually study best?",
+      "answers": [
+        "Early morning",
+        "Afternoon",
+        "Evening",
+        "Late at night"
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What motivates you most to study?",
+      "answers": [
+        "Upcoming exams/tests",
+        "Long-term goals (career, knowledge)",
+        "External pressure (family, teachers)",
+        "Rewards or breaks (music, games, snacks)"
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Which study environment helps you focus best?",
+      "answers": [
+        "Quiet room alone",
+        "Library or study space",
+        "With background music/noise",
+        "With friends or study group"
+      ]
+    },
+    {
+      "id": 10,
+      "question": "If you could improve one part of your study routine, what would it be?",
+      "answers": [
+        "Staying focused",
+        "Having a clear study plan",
+        "Tracking progress",
+        "Finding engaging ways to learn"
+      ]
     }
   ]
 }
